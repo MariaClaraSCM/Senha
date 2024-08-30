@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.back{
+  width: 100%;
+  height: 7.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estilização{
+  background-image: url(./Components/Assets/Azul-claro.jpeg);
+  background-size: contain;
+  width: 43%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2vw;
+  border: 0.3vw solid #eafcff;
+}
+
+.estilização input{
+  width: 70%;
+  height: 10%;
+  font-size: 2vw;
+  border: .5vw solid #9edbfc;
+  border-radius: 1vw;
+  outline: none; /* Remove a borda preta de foco */
+}
+
+.estilização p{
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5vw;
+}
