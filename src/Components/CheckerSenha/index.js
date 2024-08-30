@@ -16,8 +16,8 @@ const CheckerSenha = () => {
       }
     }, [senha]);
 
-    const corDasForcas = (strength) => {
-        switch (strength) {
+    const corDasForcas = (Forca) => {
+        switch (Forca) {
           case 'Fraca':
             return 'red';
           case 'Média':
